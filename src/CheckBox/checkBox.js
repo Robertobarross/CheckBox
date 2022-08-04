@@ -27,10 +27,10 @@ export default function Check() {
 
     const click = () => {
         if(check === true){
-            alert("Verdadeiro");
+            alert("CORRETO! Parabéns...");
         }else{
             false
-            alert("Errado!");
+            alert("Errado! Tente novamente.");
         }
     };
 
